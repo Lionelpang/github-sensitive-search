@@ -1,0 +1,23 @@
+
+
+smtp: smtp.163.com
+mailAccount: {邮箱}
+mailAccountPwd: {密码}
+schedule: "0 */5 * * * ? *"
+worksNum: 5
+receivers:
+  - pangms@163.com
+tokens:
+  - xxxxxxxxxx
+tasks:
+  - group: 中心测试
+    qs:
+      - asiainfo
+    exts:
+      - css
+      - python
+      - java
+      - js
+      - html
+      - properties
+      - yaml
